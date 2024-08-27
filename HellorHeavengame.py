@@ -5,7 +5,7 @@ print('''
 88,dPPYba,   ,adPPYba, ,adPPYYba, 8b       d8  ,adPPYba, 8b,dPPYba,   
 88P'    "8a a8P_____88 ""     `Y8 `8b     d8' a8P_____88 88P'   `"8a  
 88       88 8PP""""""" ,adPPPPP88  `8b   d8'  8PP""""""" 88       88  
-88       88 "8b,   ,aa 88,    ,88   `8b,d8'   "8b,   ,aa 88       88  
+88       88 "8b,   ,aa 88,    ,88   `8b,d8'   "8b,   ,aa 88       88  heaven
 88       88  `"Ybbd8"' `"8bbdP"Y8     "8"      `"Ybbd8"' 88       88  
 ''')
 print("Welcome to your choose of Heaven or Hell.")
@@ -16,8 +16,8 @@ choice1 = input('You\'re at a crossroad, where do you want to go? '
 if choice1 == "heaven":
     choice2 = input('You\'ve come to a crossroads and must choose to pick up your cross and follow Jesus. '
                     'There is forgiveness and love. '
-                    'Type "wait" to tell Jesus I am not ready. '
-                    'Type "Yes" then through his love and mercy you will enter the kingdom of heaven.\n').lower()
+                    'Type "wait" to tell Jesus I am not ready, there is still things I want to do on earth. '
+                    'Type "Yes" I\'m ready to die to self .\n').lower()
     if choice2 == "wait":
         choice3 = input("You arrive back to your normal life unharmed. "
                         "However, you have a choice. sin and turn away from Christ, "
@@ -32,7 +32,7 @@ if choice1 == "heaven":
         else:
             print("You chose anything else. Game Over.")
     else:
-        print("Satan tricks you and leads you down a path of pain and death. Game Over.")
+        print("You have put your faith in Jesus Christ and can enter heaven. You win!.")
 
 else:
-    print("You have put your faith in Jesus Christ and can enter heaven. You win!")
+    print("You live a satisfying life on earth but when you die you are thrown into the lake of fire. Game Over!")
